@@ -1,0 +1,53 @@
+body {
+    
+}
+
+#config {
+    display: flex;
+    justify-content: space-between;
+}
+
+#config button {
+    margin: 0px 20px;
+}
+
+#config p {
+    color: rgb(222, 220, 220);
+}
+
+#record-ada {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-size: 40px;
+    border: none;
+    background-image: url('public/images/record.png');
+}
+
+#record-ada:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px red;
+    border-radius: 50%;
+}
+
+#canvasViews {
+    position: relative;
+}
+
+#flowCanvas {
+    position: absolute;
+    left: 0;
+}
+
+#circlesCanvas {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    opacity: 0.2;
+}
+
+#signalsCanvas {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}

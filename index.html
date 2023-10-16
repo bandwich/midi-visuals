@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Ada</title>
+    <link rel="stylesheet" href="index.css"/>
+  </head>
+  <body>
+    <div id="config">
+      <p id="message-to-display"></p>
+      <button id="start-ada">Start Ada</button>
+      <button id="record-ada"></button>
+      <button id="replay-ada">Replay</button>
+    </div>
+      
+    <!-- <div id="canvasViews">
+      <canvas id="circlesCanvas"></canvas>
+      <canvas id="signalsCanvas"></canvas>
+      <canvas id="flowCanvas"></canvas>
+    </div> -->
+
+  </body>
+  <script src="js/coverage.js"></script>
+  <script src="js/renderer.js"></script>
+  <!-- <script src="js/flow.js"></script> -->
+  <!-- <script src="js/circles.js"></script>
+  <script src="js/signals.js"></script> -->
+</html>

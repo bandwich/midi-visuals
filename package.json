@@ -1,0 +1,18 @@
+{
+  "name": "visuals",
+  "version": "1.0.0",
+  "description": "Visuals with Ada",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "tsc *.ts --outDir js && tsc ada/src/*.ts --outDir ada/src/js && electron .",
+    "visuals": "tsc *.ts --outDir js && electron ."
+  },
+  "author": "bandwich",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.2"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}
